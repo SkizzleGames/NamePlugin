@@ -1,0 +1,14 @@
+name: NamePlugin
+main: com.skizzlegames.nameplugin.Main
+version: 1.2
+description: Gives you users IGNs
+
+commands:
+    name:
+     usage: /<command> [name]
+     description: See who the player is!
+     permissions:
+permissions:
+    namep.name:
+        description: Permission for name command
+        default: op
